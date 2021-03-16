@@ -12,9 +12,9 @@
 pip install
 
 # Create DB
-$ python
-from app import db
-db.create_all()
+$ python\
+from app import db\ 
+db.create_all()\
 exit()
 
 # Run Server (http://localhost:5000)
