@@ -4,16 +4,15 @@
 
 #After Cloning the repo to your computer
 
-## Quick Start Using env
-# Activate the env
-> On windows 
-. env/Scripts/activate.bat
+# Quick Start
+## Activate the env
+> On windows :-  . env/Scripts/activate.bat
 
 # Install Dependencies
 pip install
 
 # Create DB
--> python
+$ python
 >> from app import db
 >> db.create_all()
 >> exit()
