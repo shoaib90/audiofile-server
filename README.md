@@ -12,7 +12,7 @@
 pip install
 
 # Create DB
-$ python\
+$ python
 >> from app import db <br>
 >> db.create_all() <br>
 >> exit()
